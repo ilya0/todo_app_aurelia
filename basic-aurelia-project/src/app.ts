@@ -6,6 +6,7 @@ export class App {
     todoDescription = '';
 
     addTodo() {
+        console.log("test hit");
         if (this.todoDescription) {
             this.todos.push(new Todo(this.todoDescription));
             this.todoDescription = '';
